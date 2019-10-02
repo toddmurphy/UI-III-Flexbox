@@ -170,13 +170,13 @@ header {
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding-left: 60px;
 }
 
 nav a {
   padding: 0px 20px 0px 0px;
   text-decoration: none;
   color: grey;
+  font-weight: bold;
 }
 
 /*HERO MAIN STYLES*/
@@ -280,6 +280,11 @@ hr {
   margin: 30px 0px;
 }
 
+/* Services - Overview content */
+.services-overview {
+  line-height: 1.5;
+}
+
 /* Services -product css styles */
 .product {
   display: flex;
@@ -293,6 +298,8 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .product-two {
@@ -301,6 +308,8 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .product-three {
@@ -309,6 +318,8 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .product-four {
@@ -317,6 +328,8 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .product-five {
@@ -325,6 +338,8 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .product-six {
@@ -333,12 +348,17 @@ hr {
   background-color: rgb(244, 244, 244);
   padding: 30px 30px;
   margin: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .services-button {
   width: 125px;
   height: 30px;
   border-radius: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 /* Services - footer styles */
@@ -354,4 +374,13 @@ hr {
 .footer-bullets {
   list-style-type: circle;
   margin-top: 20px;
+}
+
+.footer-bullets p {
+  margin-bottom: 20px;
+}
+
+.services-copyright {
+  text-align: center;
+  margin-top: 100px;
 }
