@@ -180,10 +180,6 @@ nav a {
 }
 
 /*HERO MAIN STYLES*/
-.hero-main div {
-  display: flex;
-  width: 45%;
-}
 
 .title-main {
   font-size: 48px;
@@ -193,6 +189,10 @@ nav a {
 }
 
 .title-main h1 {
+  display: flex;
+}
+
+.hero-flex {
   display: flex;
 }
 
@@ -208,21 +208,18 @@ nav a {
 	display: inline-block;
 	width: 40%;
   } */
-
 .info {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-.info div {
-  display: flex;
-}
-
 .left-info {
-  width: 50%;
+  width: 40%;
 }
 
 .right-info {
-  width: 50%;
+  width: 40%;
 }
 
 /*HERO IMAGE STYLES*/
@@ -233,10 +230,11 @@ nav a {
 
 .hero-image {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 /*SECONDARY INFO CONTENTS STYLES*/
-.secondary-info div {
+.secondary-info {
   display: flex;
   justify-content: space-between;
   margin: 20px;
@@ -265,4 +263,95 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+
+/*SERVICES CSS STYLES HERE*/
+/* Services - hero main image styles */
+.services-hero-image img {
+  width: 1100px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+hr {
+  margin: 30px 0px;
+}
+
+/* Services -product css styles */
+.product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-one {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.product-two {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.product-three {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.product-four {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.product-five {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.product-six {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(244, 244, 244);
+  padding: 30px 30px;
+  margin: 20px;
+}
+
+.services-button {
+  width: 125px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* Services - footer styles */
+.services-footer {
+  display: flex;
+}
+
+.services-footer-content {
+  width: 40%;
+  margin-right: 150px;
+}
+
+.footer-bullets {
+  list-style-type: circle;
+  margin-top: 20px;
 }
